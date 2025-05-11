@@ -1,0 +1,138 @@
+html, body {
+    background-color: #666;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    gap: 120px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+h2 {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+.profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgb(5, 16, 90);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    box-shadow: rgb(14, 14, 143) 0px 0px 20px 0px;
+}
+.profile-image {
+    text-align: center;
+}
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
+    border: 4px solid #192c19;
+}
+.profile-details {
+    text-align: justify;
+    margin-top: 20px;
+}
+.profile-details h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.profile-details p {
+    margin: 5px 0;
+    color: white;
+}
+.social-links {
+    text-align: start;
+    margin-top: 20px;
+}
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 18px;
+}
+.social-links a:hover {
+    text-decoration: underline;
+}
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+    gap: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav li a:hover {
+    text-decoration:solid;
+    color: #4CAF50;
+    font-weight: bold;
+}
+span {
+    color: #A5BFCC;
+    font-weight: bold;
+}
+h1 {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0;
+}
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn:hover {
+    background-color: #45a049;
+}
+.btn:active {
+    background-color: #3e8e41;
+    transform: translateY(2px);
+}
